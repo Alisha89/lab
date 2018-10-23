@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Account Sign Up</title>
+<link href="form1.css" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <h1>Account Sign Up</h1>
+            </header>
+            <fieldset>
+               <legend>Account Information</legend>
+            <form id="regfrm" action="Submit.html" method="get"></form>
+            <label for="email"></label>Email:  <input type="text" id="email" name="Email" placeholder="Email"/> <br>
+<label for="password"></label>Password: <input type="password" id="password" name="password" /> <br>
+<label for="phno"></label> Phone Number: <input type="phone number" id="phno" name="phone number"/><br>
+</fieldset>
+<fieldset>
+<legend>Settings</legend>
+How did you hear about us?<br>
+<input type="radio" name="Search engine" id="se" value="Search engine">
+    <label for="se">Search engine</label><br>
+    <input type="radio" name="Word of mouth" id="word" value="Word of mouth">
+    <label for="word">Word of mouth</label><br>
+    <input type="radio" name="Other" id="other" value="Other">
+    <label for="other">Other</label><br/>
+
+    Would you like to receive announcements about new products and special offers? <br>
+    <input type="checkbox" name="Yes,I'd like to receive announcements about new products and special offers " id="Yes" value="Search engine">
+    <label for="Yes">Yes,I'd like to receive announcements about new products and special offers</label><br>
+
+    Contact Via:<br>
+    <select name="Contact Via"> 
+    <option value="email">Email</option>
+</select> <br>
+
+Comments: <br>
+<textarea name="comments" rows="7" cols="50" ></textarea><br>
+</fieldset>
+<input type="submit" value="Submit"/>
+</form>
+</body> 
+</html>
+
